@@ -392,8 +392,10 @@ In this exercise, you will configure Azure VMs running SUSE Linux Enterprise Ser
     ```
 
 1.  In **YaST Control Center**, select **Software -\> Add-On Products** and press **Enter**. This will load **Package Manager**.
+![Screenshot](../images/ex2-task5-step2-pic1.png)
 
-1.  On the **Installed Add-on Products** screen, verify that **Public Cloud Module** is already installed. Then, press **F9** twice to return to the shell prompt.
+1.  On the **Installed Add-on Products** screen, verify that **Public Cloud Module** is already installed. Then, press **F9** twice to return to the shell prompt. 
+![Screenshot](../images/ex2-task5-step3-pic1.png)
 
 1.  In the SSH session to i20-db-0, run the following to update operating system (when prompted, type **y** and press the **Enter** key):
 
@@ -562,6 +564,7 @@ In this exercise, you will configure clustering on Azure VMs running Linux to su
     -   Name: **Stonith app**
 
     -   Supported account type: **Accounts in this organizational directory only**
+![Screenshot](../images/ex3-task4-step3-pic1.png)
 
 1.  On the **Stonith app** blade, copy the value of **Application (client) ID** to Notepad. This will be referred to as **login_id** later in this exercise:
 
